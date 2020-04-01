@@ -2,7 +2,7 @@ openapi: 3.0.1
 info:
   description: This is a simple API
   version: "1.0.1"
-  title: Cars API  - this is new change again
+  title: Cars API
 
 paths:
   /cars:
