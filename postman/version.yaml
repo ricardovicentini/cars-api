@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  description: This is a simple API
+  description: This is a simple API (ha ha, change in Gitlab)
   version: "1.0.1"
   title: Cars API
 
