@@ -1,0 +1,20 @@
+openapi: 3.0.1
+info:
+  description: This is a simple API
+  version: "1.0.0"
+  title: Cars API  - this is new
+
+paths:
+  /cars:
+    get:
+      summary: searches cars
+      parameters:
+        - in: form
+          name: search
+          description: pass an optional search string
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: search results matching criteria
